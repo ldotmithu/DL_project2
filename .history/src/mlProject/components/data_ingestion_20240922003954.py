@@ -28,9 +28,7 @@ class DataIngestion:
         os.makedirs(unzip_path,exist_ok=True)
         with zipfile.ZipFile(self.config.locat_data_path,'r') as f:
             f.extractall(unzip_path)
-            logging.info('Extract All files')   
-            
-'''                          
+            logging.info('Extract All files')                
 try:
     config=ConfigurationManager()
     data_ingestion_config=config.get_data_ingetsion_config()
@@ -40,4 +38,3 @@ try:
 except Exception as e:
     logging.exception(e)
     raise    
-'''     

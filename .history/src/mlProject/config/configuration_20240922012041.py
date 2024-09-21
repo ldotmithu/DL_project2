@@ -53,7 +53,7 @@ class ConfigurationManager:
             root_dir=config.root_dir,
             vgg_model=config.vgg_model,
             final_model=config.final_model,
-            training_data=Path(training_data),
+            training_data=Path(training_data)
             params_batch_size=self.params.BATCH_SIZE,
             params_classes=self.params.CLASSES,
             params_include_top=self.params.INCLUDE_TOP,

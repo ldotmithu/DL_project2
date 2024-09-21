@@ -25,7 +25,6 @@ class ModelTrainConfig:
     root_dir:Path
     vgg_model:Path  
     final_model:Path
-    training_data: Path
     params_image_size: list
     params_include_top: bool
     params_weights: str

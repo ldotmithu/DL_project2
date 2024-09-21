@@ -22,14 +22,3 @@ try:
 except Exception as e:
     logging.exception(e)
     raise
-
-
-Stage_name='Train Model '
-try:
-    model_train=ModelTrainPipeline()
-    model_train.main()
-    logging.info(f'{Stage_name} Complated')
-    print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
-except Exception as e:
-    logging.exception(e)
-    raise

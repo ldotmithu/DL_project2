@@ -14,6 +14,6 @@ base_model:
 training:
   root_dir: artifacts/training
   vgg_model: artifacts/base_model/model.h5
-  final_model: artifacts/training/final_model.h5
+  final_model:artifacts/training/
 
   

@@ -44,22 +44,4 @@ class ConfigurationManager:
     
     def get_model_train_config(self):
         config=self.config.training
-        training_data=os.path.join(self.config.data_ingestion.unzip_dir,'Chest-CT-Scan-data')
-        create_directories([Path(config.root_dir)
-                            
-                            ])
-        
-        model_train_config=ModelTrainConfig(
-            root_dir=config.root_dir,
-            vgg_model=config.vgg_model,
-            final_model=config.final_model,
-            training_data=Path(training_data),
-            params_batch_size=self.params.BATCH_SIZE,
-            params_classes=self.params.CLASSES,
-            params_include_top=self.params.INCLUDE_TOP,
-            params_weights=self.params.WEIGHTS,
-            params_image_size=self.params.IMAGE_SIZE,
-            params_epchos=self.params.EPOCHS
-        )
-        
-        return model_train_config
+        training_data=os.path.join(self.config.data_ingestion.unzip_dir,'')

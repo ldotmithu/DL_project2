@@ -29,8 +29,6 @@ class BaseModel:
         
         model.save(self.config.vgg_model)
         
-        logging.info('Base model Save Succesfully')
-        
         return model
 '''    
 try:

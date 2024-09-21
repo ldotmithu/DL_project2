@@ -26,8 +26,8 @@ except Exception as e:
 
 Stage_name='Train Model '
 try:
-    model_train=ModelTrainPipeline()
-    model_train.main()
+    base_model=BaseModelPipeline()
+    base_model.main()
     logging.info(f'{Stage_name} Complated')
     print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
 except Exception as e:
