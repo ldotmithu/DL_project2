@@ -16,5 +16,3 @@ class BaseModelConfig:
     params_include_top: bool
     params_weights: str
     params_classes: int
-    params_batch_size:list
-    params_epchos:int

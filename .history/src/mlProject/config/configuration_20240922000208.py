@@ -36,7 +36,7 @@ class ConfigurationManager:
             params_classes=self.params.CLASSES,
             params_include_top=self.params.INCLUDE_TOP,
             params_weights=self.params.WEIGHTS,
-            params_image_size=self.params.IMAGE_SIZE,
+            params_image_size=self.params.TARGRT_SIZE,
             params_epchos=self.params.EPOCHS
         )
         return base_model_config

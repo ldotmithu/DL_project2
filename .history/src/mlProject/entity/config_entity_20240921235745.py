@@ -17,4 +17,3 @@ class BaseModelConfig:
     params_weights: str
     params_classes: int
     params_batch_size:list
-    params_epchos:int

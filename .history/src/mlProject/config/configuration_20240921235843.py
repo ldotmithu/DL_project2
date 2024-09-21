@@ -32,11 +32,6 @@ class ConfigurationManager:
         base_model_config=BaseModelConfig(
             root_dir=config.root_dir,
             vgg_model=config.vgg_model,
-            params_batch_size=self.params.BATCH_SIZE,
-            params_classes=self.params.CLASSES,
-            params_include_top=self.params.INCLUDE_TOP,
-            params_weights=self.params.WEIGHTS,
-            params_image_size=self.params.IMAGE_SIZE,
-            params_epchos=self.params.EPOCHS
+            params_batch_size=params.
         )
         return base_model_config

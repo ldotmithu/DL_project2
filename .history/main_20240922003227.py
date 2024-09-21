@@ -12,7 +12,7 @@ except Exception as e:
     logging.exception(e)
     raise
 
-Stage_name='Prepare Base Model '
+Stage_name='Data Ingestion'
 try:
     base_model=BaseModelPipeline()
     base_model.main()
