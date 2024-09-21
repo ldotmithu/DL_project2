@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/DL_project2/mlruns/0/a36bac272da944df8e1d6c30de146199/artifacts
+end_time: 1726953291986
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a36bac272da944df8e1d6c30de146199
+run_name: defiant-penguin-107
+run_uuid: a36bac272da944df8e1d6c30de146199
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726953282420
+status: 4
+tags: []
+user_id: HP

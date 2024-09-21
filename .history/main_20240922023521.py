@@ -36,10 +36,10 @@ except Exception as e:
     raise
 
 
-Stage_name=' Model Evaluation '
+Stage_name='Train Model '
 try:
-    model_evl=EvaluationPipeline()
-    model_evl.main()
+    model_train=ModelTrainPipeline()
+    model_train.main()
     logging.info(f'{Stage_name} Complated')
     print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
 except Exception as e:

@@ -36,7 +36,7 @@ except Exception as e:
     raise
 
 
-Stage_name=' Model Evaluation '
+Stage_name='Train Model '
 try:
     model_evl=EvaluationPipeline()
     model_evl.main()
